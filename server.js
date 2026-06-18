@@ -53,13 +53,13 @@ app.get('/projects',(req, res)=>{
     res.json([{id: 1,
         project: 'Weather App',
         description: 'A responsive weather application that fetches real-time weather data based on user location, built to practice API integration and dynamic UI updates.', 
-        techStack: ['MongoDB ', 'Express ', 'React ', 'Node js '],
+        techStack: ['MongoDB', 'Express', 'React', 'Node js'],
         githubLink: '#',
         liveLink: '#' },
         {id: 2,
         project: 'Portfolio website',
         description: 'A full stack personal portfolio built with React, Express, and MongoDB featuring dark mode, dynamic content fetched from a custom REST API, and a working contact form connected to a live database.', 
-        techStack: ['MongoDB ' , 'Express' , ' React' , ' Node js'],
+        techStack: ['MongoDB' , 'Express' , 'React' , 'Node js'],
         githubLink: 'https://github.com/Kheiroum2000/my-portfolio',
         liveLink: 'https://musical-sunshine-7e7dde.netlify.app/'}
     ])
